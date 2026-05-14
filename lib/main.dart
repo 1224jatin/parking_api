@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:parking_expense_api/view/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:  MyHomePage(),
+      home:  HomeScreen(),
     );
   }
 }

@@ -1,9 +1,9 @@
 class ParkingModel {
-  late DateTime checkin ;
-  late DateTime checkout ;
+  late String entry_time ;
+  late String exit_time ;
 
   ParkingModel({
-    required this.checkin,
-    required this.checkout
+    required this.entry_time,
+    required this.exit_time
 });
 }
